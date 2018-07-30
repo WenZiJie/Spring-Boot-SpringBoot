@@ -1,0 +1,11 @@
+server: 
+    port: 8082
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring: 
+    application: 
+        name: crudservice
